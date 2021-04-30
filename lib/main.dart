@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       initialRoute: LoginPage.id,
-     // initialRoute: NavigationPage.id,
+    
       routes: {
         SplashScreen.id: (context) => SplashScreen(),
          LoginPage.id: (context) => LoginPage(),
