@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
               ),
             )
           ],
-          toolbarHeight: 128,
+          //toolbarHeight: 128,
           backgroundColor: Palette.white,
         ),
         body: Container(

@@ -1,23 +1,23 @@
 import 'package:flutter/material.dart';
 
 class ProfileHeader extends StatelessWidget {
-  final String headerTitle;
+ 
   final String imageTitle;
 
-  const ProfileHeader({ this.headerTitle,  this.imageTitle});
+  const ProfileHeader({ this.imageTitle});
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Center(
-            child: Container(
-          margin: EdgeInsets.fromLTRB(0, 100, 0, 20),
-          child: Text(
-            headerTitle,
-            style: TextStyle(
-                fontSize: 20, color: Colors.black, fontWeight: FontWeight.w400),
-          ),
-        )),
+        // Center(
+        //     child: Container(
+        //   margin: EdgeInsets.fromLTRB(0, 100, 0, 20),
+        //   child: Text(
+        //     headerTitle,
+        //     style: TextStyle(
+        //         fontSize: 20, color: Colors.black, fontWeight: FontWeight.w400),
+        //   ),
+        // )),
         Container(
           child: Stack(
             children: [
@@ -27,7 +27,7 @@ class ProfileHeader extends StatelessWidget {
               ),
               Container(
                 alignment: Alignment.center,
-                padding: EdgeInsets.fromLTRB(100, 50, 100, 50),
+                padding: EdgeInsets.fromLTRB(0, 50, 0, 50),
                 child: Text(
                   imageTitle,
                   style: TextStyle(

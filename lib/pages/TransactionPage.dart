@@ -32,7 +32,7 @@ class _TransactionPageState extends State<TransactionPage> {
             )
 
           ],
-          toolbarHeight: 128,
+        //  toolbarHeight: 128,
           backgroundColor: Palette.white,
         ),
         body: Container(

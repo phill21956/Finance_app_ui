@@ -22,7 +22,7 @@ class _WithdrawSuccessPageState extends State<WithdrawSuccessPage> {
             style: TextStyle(color: Colors.black),
           ),
         ),
-        toolbarHeight: 128,
+      //  toolbarHeight: 128,
         backgroundColor: Palette.white,
       ),
       body: Container(
