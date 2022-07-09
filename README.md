@@ -1,6 +1,12 @@
 # payrush
 
-A new Flutter project.
+In this project I create a finance app.
+
+With a User authentication and OTP validation page,
+
+Dashboard homepage, profile page, transaction history page...
+
+Makes use of bottom navigation widget, provider state management, Firebase .
 
 ## Getting Started
 
